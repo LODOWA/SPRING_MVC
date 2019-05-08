@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Spring-mvc-demo:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Spring_mvc_demo_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Spring-mvc-demo/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Spring-mvc-demo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-4.3.18.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-4.3.18.RELEASE" />
+          <element id="library" level="project" name="javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="jstl:jstl:1.2" />
+          <element id="library" level="project" name="com.kumuluz.ee:kumuluzee-bean-validation-hibernate-validator:3.2.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
